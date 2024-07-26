@@ -644,5 +644,10 @@ function M.load_menu_from_file(filename)
   update_buffers()
 end
 
+function M.get_marks()
+  update_marks()
+  return marks
+end
+
 
 return M
